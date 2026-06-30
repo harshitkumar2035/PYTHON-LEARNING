@@ -1,9 +1,8 @@
-marks = {
-    "harshit": 100,
-    "sachin": 56,
-    "saurabh": 23,
+student = {
+    "name": "Harshit",
+    "age": 20
 }
 
-print(marks, type(marks))
+student["age"] = 21
 
-
+print(student)
