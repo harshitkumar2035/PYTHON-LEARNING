@@ -1,8 +1,14 @@
+# student = {
+#     "name": "Harshit"
+# }
+# student["city"] = "Delhi"
+# print(student)
+
+# item delete karna
 student = {
     "name": "Harshit",
-    "age": 20
+    "city": "Delhi",
 }
 
-student["age"] = 21
-
+del student["city"]
 print(student)
