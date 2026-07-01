@@ -5,10 +5,21 @@
 # print(student)
 
 # item delete karna
+# student = {
+#     "name": "Harshit",
+#     "city": "Delhi",
+# }
+
+# del student["city"]
+# print(student)
+
+
+# length of dictionary
 student = {
     "name": "Harshit",
+    "age": 21,
     "city": "Delhi",
 }
 
-del student["city"]
-print(student)
+
+print(len(student))
