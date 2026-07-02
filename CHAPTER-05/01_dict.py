@@ -48,13 +48,26 @@
 
 # 5 dictionary ke ander dictionary
 
+# student = {
+#  "name": "Harshit",
+# "marks": {
+#     "Maths": 90,
+#     "Science": 85,
+#     "English": 95
+#     }
+# }
+
+# print(student["marks"]["Maths"])
+
+
+
+
+# 6 For loop in dictionary
 student = {
- "name": "Harshit",
-"marks": {
-    "Maths": 90,
-    "Science": 85,
-    "English": 95
-    }
+    "name": "Harshit",
+    "age": 21,
+    "city": "Bareilly",
 }
 
-print(student["marks"]["Maths"])
+for key in student:
+    print(key, ":", student[key])
