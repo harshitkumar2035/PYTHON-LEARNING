@@ -37,9 +37,24 @@
 
 # 4 dictionary with list as value
     
-student = {
-        "name": "Harshit",
-        "skills": ["Python", "HTML", "CSS", "ReactJS"]
-    }
+# student = {
+#         "name": "Harshit",
+#         "skills": ["Python", "HTML", "CSS", "ReactJS"]
+#     }
 
-print(student["skills"])
+# print(student["skills"])
+
+
+
+# 5 dictionary ke ander dictionary
+
+student = {
+ "name": "Harshit",
+"marks": {
+    "Maths": 90,
+    "Science": 85,
+    "English": 95
+    }
+}
+
+print(student["marks"]["Maths"])
