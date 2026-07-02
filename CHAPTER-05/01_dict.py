@@ -25,10 +25,21 @@
 
 # 3 different data types in dictionary
     
+# student = {
+#     "name": "Harshit",
+#     "age": 21,
+#     "height": 5.7,
+#     "is_student": True
+# }
+# print(student)
+
+
+
+# 4 dictionary with list as value
+    
 student = {
-    "name": "Harshit",
-    "age": 21,
-    "height": 5.7,
-    "is_student": True
-}
-print(student)
+        "name": "Harshit",
+        "skills": ["Python", "HTML", "CSS", "ReactJS"]
+    }
+
+print(student["skills"])
