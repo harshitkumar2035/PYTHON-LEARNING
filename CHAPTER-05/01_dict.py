@@ -4,7 +4,7 @@
 # student["city"] = "Delhi"
 # print(student)
 
-# item delete karna
+#1 item delete karna
 # student = {
 #     "name": "Harshit",
 #     "city": "Delhi",
@@ -14,12 +14,21 @@
 # print(student)
 
 
-# length of dictionary
+#2 length of dictionary
+# student = {
+#     "name": "Harshit",
+#     "age": 21,
+#     "city": "Delhi",
+# }
+# print(len(student))
+
+
+# 3 different data types in dictionary
+    
 student = {
     "name": "Harshit",
     "age": 21,
-    "city": "Delhi",
+    "height": 5.7,
+    "is_student": True
 }
-
-
-print(len(student))
+print(student)
