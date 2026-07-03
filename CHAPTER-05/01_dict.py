@@ -63,11 +63,21 @@
 
 
 # 6 For loop in dictionary
+# student = {
+#     "name": "Harshit",
+#     "age": 21,
+#     "city": "Bareilly",
+# }
+
+# for key in student:
+#     print(key, ":", student[key])
+
+    
+
+
+# 7 get() method in dictionary
 student = {
     "name": "Harshit",
-    "age": 21,
-    "city": "Bareilly",
 }
 
-for key in student:
-    print(key, ":", student[key])
+print(student.get("age"))  
