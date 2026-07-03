@@ -81,3 +81,4 @@ student = {
 }
 
 print(student.get("age"))  
+print(student.get("age", "Not Found"))
