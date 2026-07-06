@@ -13,3 +13,6 @@
 student = ("Harshit", 21, "Delhi", "Python", "HTML", "CSS", "ReactJS")
 print(student[-4])
 print(len(student))
+   
+for i in student:
+ print(i)
