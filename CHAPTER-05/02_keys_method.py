@@ -6,3 +6,6 @@ student = {
 print(student.keys())
 print(student.values())
 print(student.items())
+
+for key in student.keys():
+    print(key)
