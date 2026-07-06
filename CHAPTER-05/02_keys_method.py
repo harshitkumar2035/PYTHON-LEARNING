@@ -4,3 +4,5 @@ student = {
     "city": "Delhi"
 }
 print(student.keys())
+print(student.values())
+print(student.items())
