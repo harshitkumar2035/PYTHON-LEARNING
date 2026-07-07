@@ -25,3 +25,6 @@ student = {
 
 for value in student.values():
     print(value)
+
+
+print(list(student.values()))
