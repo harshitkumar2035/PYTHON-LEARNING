@@ -74,7 +74,6 @@
 
     
 
-
 # 7 get() method in dictionary
 student = {
     "name": "Harshit",
