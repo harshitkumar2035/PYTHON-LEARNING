@@ -8,10 +8,20 @@
 
 
 
+# student = {
+#     "name": "Harshit",
+#     "age": 21
+# }
+
+# print(student.setdefault("city", "Meerut"))
+# print(student)
+
+
+
 student = {
-    "name": "Harshit",
-    "age": 21
+    "name": "Harshit"
 }
 
-print(student.setdefault("city", "Meerut"))
+student.setdefault("course", "Python")
+
 print(student)
