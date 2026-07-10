@@ -18,8 +18,18 @@
 
 
 
+# student = {
+#     "name": "Harshit"
+# }
+
+# student.setdefault("course", "Python")
+
+# print(student)
+
+
 student = {
-    "name": "Harshit"
+    "name":"Harshit",
+    "course":"FastAPI"
 }
 
 student.setdefault("course", "Python")
