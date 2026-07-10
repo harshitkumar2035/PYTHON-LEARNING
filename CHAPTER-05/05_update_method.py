@@ -23,15 +23,30 @@
 # print(student)
 
 
+# student = {
+#     "name": "Harshit",
+#     "age": 21
+# }
+
+# student.update({
+#     "age": 22,
+#     "city": "Delhi",
+#     "course": "Python"
+# })
+
+# print(student)
+
+
 student = {
     "name": "Harshit",
     "age": 21
 }
 
-student.update({
-    "age": 22,
-    "city": "Delhi",
+extra = {
+    "city": "Meerut",
     "course": "Python"
-})
+}
+
+student.update(extra)
 
 print(student)
