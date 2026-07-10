@@ -11,13 +11,27 @@
 # print(student)
 
 
+# student = {
+#     "name": "Harshit",
+#     "age": 21
+# }
+
+# student.update({
+#     "city": "Meerut"
+# })
+
+# print(student)
+
+
 student = {
     "name": "Harshit",
     "age": 21
 }
 
 student.update({
-    "city": "Meerut"
+    "age": 22,
+    "city": "Delhi",
+    "course": "Python"
 })
 
 print(student)
