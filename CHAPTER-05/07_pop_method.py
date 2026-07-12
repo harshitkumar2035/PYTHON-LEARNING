@@ -1,10 +1,18 @@
+# student = {
+#     "name": "Harshit",
+#     "age": 21,
+#     "city": "Meerut"
+# }
+
+# removed_value = student.pop("age")
+
+# print("Deleted Value :", removed_value)
+# print(student)
+
 student = {
     "name": "Harshit",
-    "age": 21,
-    "city": "Meerut"
+    "age": 21
 }
 
-removed_value = student.pop("age")
-
-print("Deleted Value :", removed_value)
+print(student.pop("name"))
 print(student)
