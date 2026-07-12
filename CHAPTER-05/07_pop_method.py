@@ -9,10 +9,16 @@
 # print("Deleted Value :", removed_value)
 # print(student)
 
+# student = {
+#     "name": "Harshit",
+#     "age": 21
+# }
+
+# print(student.pop("name"))
+# print(student)
+
 student = {
-    "name": "Harshit",
-    "age": 21
+    "name": "Harshit"
 }
 
-print(student.pop("name"))
-print(student)
+student.pop("city")
