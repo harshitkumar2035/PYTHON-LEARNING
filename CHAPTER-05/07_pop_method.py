@@ -17,8 +17,14 @@
 # print(student.pop("name"))
 # print(student)
 
+# student = {
+#     "name": "Harshit"
+# }
+
+# student.pop("city")
+
 student = {
     "name": "Harshit"
 }
 
-student.pop("city")
+print(student.pop("city", "Key Not Found"))
