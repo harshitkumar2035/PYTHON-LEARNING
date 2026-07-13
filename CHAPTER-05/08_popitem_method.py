@@ -19,13 +19,24 @@
 # print(student.popitem())
 # print(student)
 
+# student = {
+#     "name": "Harshit",
+#     "age": 21,
+#     "city": "Meerut"
+# }
+
+# print(student.popitem())
+# print(student.popitem())
+
+# print(student)
+
 student = {
     "name": "Harshit",
     "age": 21,
     "city": "Meerut"
 }
 
-print(student.popitem())
-print(student.popitem())
+key, value = student.popitem()
 
-print(student)
+print(key)
+print(value)
