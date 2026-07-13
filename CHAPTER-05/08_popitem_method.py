@@ -9,12 +9,23 @@
 # print("Deleted Item :", deleted_item)
 # print(student)
 
+# student = {
+#     "name": "Harshit",
+#     "age": 21,
+#     "city": "Meerut",
+#     "course": "Python"
+# }
+
+# print(student.popitem())
+# print(student)
+
 student = {
     "name": "Harshit",
     "age": 21,
-    "city": "Meerut",
-    "course": "Python"
+    "city": "Meerut"
 }
 
 print(student.popitem())
+print(student.popitem())
+
 print(student)
